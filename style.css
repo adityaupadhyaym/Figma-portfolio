@@ -1,0 +1,1017 @@
+@import "font.css";
+
+:root {
+    --orange: #ff5300;
+    --orange-bg: #FFF7F4;
+    --black: #373737;
+    --dark-bg: #18191A;
+    --dark-view-1: #242526;
+    --dark-view-2: #3A3B3C;
+    --gray-para: #7B7B7B;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+span {
+    color: var(--orange);
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--gray-para);
+    line-height: 151%;
+}
+
+.title-heading {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 124%;
+    padding: 18px 0px;
+}
+
+.title-para {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 151%;
+    color: var(--gray-para);
+    padding: 0px 27px;
+}
+
+/* css of header */
+
+
+header {
+    background-color: var(--orange-bg);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 17px 10px 14px;
+    background-color: var(--white);
+}
+
+.menu-box {
+    display: none;
+}
+
+
+nav div h2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 124%;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px 0;
+}
+
+header .text h3 {
+    font-size: 31.25px;
+    font-weight: 600;
+    line-height: 124%;
+    text-align: center;
+    margin: 50px 49px 18px 48px;
+}
+
+header .text h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 151%;
+    text-align: center;
+    color: var(--gray-para);
+    margin: 0px 27px 25px 26px;
+}
+
+.social-icon {
+    display: none;
+    position: absolute;
+    top: 45%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.social-icon div {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon div img {
+    object-fit: fill;
+}
+
+.button {
+    text-align: center;
+}
+
+/* about section css start here */
+
+.about-parent {
+    display: flex;
+    flex-direction: column;
+}
+.about-text {
+    padding-top: 10px;
+}
+
+.about-card {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    margin: 0px 16px 25px 16px;
+    padding: 18px 40px;
+}
+
+.btn {
+    margin: 15px 0 50px 0px;
+}
+
+.about-card h5 {
+    line-height: 151%;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray-para);
+    padding-top: 10px;
+}
+
+.about-icon-box {
+    display: flex;
+    flex-direction: column;
+}
+
+/* experience section css start here */
+
+.section-experience {
+    margin: 50px 0;
+    background-color: var(--orange-bg);
+    padding-bottom: 50px;
+}
+
+
+.section-experience .exp-text {
+    padding: 50px 0px;
+}
+
+.section-experience .sec-exp-card {
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    margin: 25px 16px;
+    padding: 70px 60px;
+}
+
+.section-experience .sec-exp-card .sec-exp-card-no {
+    font-size: 48px;
+    line-height: 124%;
+    color: var(--black);
+}
+
+.section-experience .sec-exp-card .sec-exp-card-text {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 124%;
+    color: var(--gray-para);
+}
+
+/* team- member section css start here */
+
+.tm-img-div {
+    display: flex;
+    flex-direction: row;
+    width: 300%;
+
+}
+
+.tm-img-div>div {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    padding-bottom: 15px;
+    height: 350px;
+    width: 270px;
+
+}
+
+.tm-img-left>img, .tm-img-right>img, .tm-img-middle>img, .tm-img-right-most>img {
+    width: 100%;
+    height: 75%;
+}
+
+.team-member .tm-img-div .tm-img-left {
+    position: relative;
+}
+
+.team-member .tm-img-div .tm-img-left .tm-img-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.team-member .tm-img-div .tm-img-left .tm-img-icon .tm-img-fb {
+    background-color: var(--orange);
+}
+
+.team-member .tm-img-div .tm-img-left .tm-img-icon div {
+    padding: 10px;
+    background-color: var(--white);
+    margin-top: 5px;
+}
+
+.team-member .standard-class {
+    text-align: center;
+}
+
+.tm-member-text-1 {
+    font-size: 20px;
+    line-height: 124%;
+    font-weight: 500;
+    text-align: center;
+    margin: 24px 0px 12px 0px;
+}
+
+.tm-member-text-2 {
+    font-size: 16px;
+    line-height: 151%;
+    font-weight: 400;
+    color: var(--gray-para);
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+}
+
+/* our-work section css start here */
+
+.section-work {
+    margin: 50px 0px 50px 16px;
+}
+
+.section-work .sec-work-list {
+    display: flex;
+    justify-content: space-between;
+    width: 118%;
+    white-space: nowrap;
+}
+
+.work-search-img-parent {
+    position: relative;
+    margin: 50px 0px 25px 0px;
+    width: 370px;
+    height: 370px;
+}
+
+.work-search-img-child {
+    position: absolute;
+    top: 60%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.work-search-inside-text {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+
+}
+
+.work-search-inside-heading {
+    font-size: 25px;
+    line-height: 124%;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.work-search-inside-sub-heading {
+    font-size: 16px;
+    line-height: 151%;
+    font-weight: 400;
+    color: var(--white);
+}
+
+/* feedback section css start here */
+
+.section-feedback {
+    background-color: var(--orange-bg);
+    padding: 50px 5px;
+}
+.feedback-parent-div {
+    display: flex;
+    align-items: center;
+    width: 200%;
+   
+}
+
+
+.feedback-common-div {
+    background-color: var(--orange);
+    width:225px ;
+    height: 180px;
+    margin-left: 50px;
+    position: relative;
+}
+.feedback-common-div > div {
+    padding: 40px 10px 11px 35px;
+}
+
+.fb-corner-img {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 0px;
+    left: -25%;
+}
+
+
+.feedback-parent-div h6 {
+    font-size: 16px;
+    line-height: 151%;
+    font-weight: 400;
+    color: var(--white);
+
+}
+
+.feedback-parent-div h7 {
+    font-size: 12.8px;
+    line-height: 124%;
+    font-weight: 400;
+    color: var(--white);
+    margin: 8px 0 12px 0;
+
+}
+
+.fb-bottom {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.fb-bottom>div {
+    margin-right: 5px;
+}
+
+/* our blog section css start here */
+
+.our-blog {
+    padding: 50px 0 50px 0;
+}
+
+.blog-card {
+    display: flex;
+    width: 200%; 
+}
+
+.blog-right-card {
+ margin-left: 25px;
+}
+
+.blog-common-card {
+    width: 296px;
+    height: 250px;
+    padding: 18px 18px 27px 18px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-common-card > div {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.blog-common-card h7 {
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 124%;
+}
+
+.blog-common-card h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 151%;
+    margin: 5px 10px 0px 1px;
+}
+
+/* contact section css start here */
+
+.contact div h3 {
+    text-align: center;
+    font-size: 31.25px;
+    font-weight: 600;
+    line-height: 124%;
+    margin-bottom: 30px;
+}
+
+.contact-mcl-para {
+    text-align: left;
+    margin: 10px;
+}
+
+.contact-mcl {
+    margin: 0px 10px 25px 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-mcl div img {
+    height: 100px;
+    width: 100px;
+}
+
+.contact-mcl>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-input input {
+    padding: 18px 0 18px 18px;
+    margin: 0px 16px 18px 16px;
+    height: 60px;
+    border: none;
+    width: 90%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-input textarea {
+    padding: 5px 0 5px 10px;
+    margin: 0px 16px 18px 16px;
+    height: 100px;
+    border: none;
+    width: 90%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-group-frame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 16px;
+}
+
+.contact-map {
+    margin-top: 20px;
+}
+
+/* footer css start here */
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding-top: 10px;
+}
+
+footer .footer-heading {
+    font-size: 31.25px;
+    font-weight: 600;
+    margin-top: 50px;
+    line-height: 124%;
+    margin-left: 16px;
+}
+
+footer .footer-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 151%;
+    margin: 18px 26px 18px 10px;
+}
+
+.footer-icon-div {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.footer-icon-div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 10px 0 10px 16px;
+    line-height: 151%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-email {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 16px 50px 16px;
+
+}
+
+.footer-email div {
+    width: 100%;
+
+}
+
+.footer-email div input {
+    padding: 18px 0 18px 18px;
+    height: 60px;
+    background-color: var(--black);
+    border: none;
+    border: 2px solid var(--orange);
+    width: 100%;
+}
+
+.footer-email .footer-last-img {
+    width: 81px;
+    height: 60px;
+    background-color: var(--orange);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-end {
+    background-color: var(--orange);
+    height: 85px;
+    text-align: center;
+    padding: 1px 40px 18px 69px;
+}
+
+.footer-end h6 {
+    display: inline;
+}
+
+.footer-end > div {
+    margin-top: 25px;
+}
+
+.footer-end img {
+    margin: -5px;
+}
+
+/* media querry for tablet start here */
+
+@media (min-width: 768px) {
+
+    /* header css in tablet start here */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 27px 28px 28px 40px;
+    }
+
+    nav div h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 124%;
+    }
+
+    nav .menu-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    nav .menu-box li {
+        list-style: none;
+        margin-right: 25px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 151%;
+    }
+
+    nav .header-menu {
+        display: none;
+    }
+    #menu-open {
+        display: none;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 73px 40px;
+    }
+
+    .parent>div {
+        flex: 1;
+    }
+
+    header .text h3 {
+        font-size: 39.06px;
+        text-align: left;
+        margin: 50px 49px 18px 0px;
+    }
+
+    header .text h6 {
+        font-size: 16px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .button {
+        text-align: left;
+        margin-left: -10px;
+        margin-top: 38px;
+    }
+
+    .social-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .poster img {
+        width: 80%;
+    }
+
+    /* about section css in tablet start here */
+
+    .section-about {
+        padding: 120px 40px 0px 17px;
+    }
+
+    .about-parent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .about-parent>div {
+        flex: 1;
+    }
+
+    .about-parent .about-text {
+        text-align: left;
+    }
+
+    .title {
+        text-align: left;
+    }
+
+    .title-heading {
+        font-size: 31.25px;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .title-para {
+        text-align: left;
+        padding: 0;
+    }
+
+    .about-card {
+        margin: 0px;
+        padding: 35px 17px 18px 17px;
+    }
+
+    .about-card h5 {
+        padding: 5px;
+    }
+
+    .about-card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-card:not(:last-child) {
+        margin-right: 24px;
+    }
+
+    .about-icon-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 85px 0px 120px 0px;
+    }
+
+    /* experience section css in tablet start here */
+
+    .section-experience {
+        display: flex;
+        padding: 30px 41px 30px 40px;
+        align-items: center;
+    }
+
+    .section-experience .sec-exp-card .sec-exp-card-no {
+        font-size: 25px;
+        line-height: 124%;
+        font-weight: 500;
+    }
+
+    .section-experience .sec-exp-card .sec-exp-card-text {
+        color: var(--gray-para);
+        font-size: 16px;
+        line-height: 151%;
+        font-weight: 400;
+    }
+
+    .section-experience>div {
+        flex-basis: 50%;
+    }
+
+    .sec-exp-parent-card>div {
+        display: flex;
+        height: 183px;
+    }
+
+    .section-experience .sec-exp-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px 15px;
+        height: 160px;
+        width: 162px;
+        margin: 20px 10px;
+    }
+
+    .section-experience .top-down {
+        margin-top: 50px;
+    }
+
+    /* team member section css in tablet start here */
+
+    .tm-img-div>div {
+        height: 324px;
+        width: 230px;
+    }
+
+    /* feedback section css in tablet start here */
+
+    .section-feedback .fb-standard {
+        text-align: center;
+    }
+
+    .feedback-parent-div {
+        width: 100%;
+        justify-content: center;
+    }
+    .feedback-common-div {
+        height: 225px;
+        width: 300px;
+    }
+    .fb-corner-img {
+        left: -20%;
+    }
+    .feedback-parent-div h6 {
+        font-size: 20px;
+        line-height: 124%;
+        font-weight: 500;
+        color: var(--white);
+    
+    }
+    
+    .feedback-parent-div h7 {
+        font-size: 16px;
+        line-height: 151%;
+        font-weight: 400;
+        color: var(--white);
+        margin: 8px 0 12px 0;
+    
+    }
+
+    .work-img-parent>div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-work .sec-work-list {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+
+    .work-img-parent img {
+        width: 80%
+    }
+
+    .section-work h6 {
+        text-align: center;
+    }
+
+    .section-work h4 {
+        text-align: center;
+    }
+
+    .sec-work-list {
+        padding: 25px 70px 50px 60px;
+    }
+
+    .work-search-img-parent {
+        position: relative;
+        margin: 50px 0px 25px 0px;
+        width: 350px;
+        height: 350px;
+    }
+
+    .work-search-img-child {
+        position: absolute;
+        top: 25%;
+        left: 41%;
+        transform: translate(-50%, -50%);
+    }
+
+    .work-search-inside-text {
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .work-search-inside-heading {
+        margin: 15px 0px 15px 0px;
+    }
+
+    /* our blog section css in tablet start here */
+.blog-card {
+    width: 100%;
+    justify-content: center;
+}
+
+    .our-blog .blog-standard {
+        text-align: center;
+    }
+
+    .blog-img-text {
+        margin-left: 10px;
+    }
+    /* contact us section css in tablet start here */
+
+    .contact-mcl-parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact-mcl div div h3 {
+        text-align: left;
+    }
+
+    .contact .contact-standard {
+        text-align: center;
+    }
+
+    .contact-map img {
+        width: 80%;
+    }
+
+    .contact-group-img-parent {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-input>div {
+        display: flex;
+    }
+
+    .contact-input textarea {
+        width: 95%;
+    }
+
+
+
+
+    /* footer css in tablet start here */
+
+    footer .footer-flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .footer-flex>div {
+        flex: 1;
+    }
+
+    .footer-flex {
+        padding: 0px 5px;
+    }
+
+
+}
+
+
+/* media querry for laptop start here */
+
+
+@media (min-width: 1144px) {
+
+    /* header css in laptop start here */
+
+    nav {
+        padding: 27px 50px 27px 135px;
+    }
+
+    .parent {
+        padding: 100px 135px;
+
+    }
+
+    /* about section css in laptop start here */
+
+    .section-about {
+        padding: 120px 100px 0px 135px;
+    }
+
+    /* experience section css in laptop start here */
+
+    .section-experience .sec-exp-card {
+        height: 250px;
+        width: 270px;
+    }
+
+    .sec-exp-parent-card>div {
+        height: 290px;
+    }
+
+    .section-experience {
+        padding: 83px 100px 60px 135px;
+    }
+
+    .section-experience .top-down {
+        margin-top: 60px;
+    }
+
+    /* work section css in laptop start here */
+
+    .section-work .sec-work-list {
+        justify-content: center;
+    }
+
+    .section-work .sec-work-list>div {
+        margin: 0px 15px 0px 15px;
+    }
+
+    /* team member section css in laptop start here */
+
+    .tm-img-div {
+        justify-content: center;
+        width: 100%;
+        /* margin: 60px 0px 120px 0px; */
+    }
+     /* blog section css in laptop start here */
+    .blog-common-card {
+        width: 500px;
+        height:294 px;
+    }
+     /* feedback section css in laptop start here */
+    .feedback-common-div {
+        height: 250px;
+        width: 470px;
+    }
+    .fb-corner-img {
+        left: -12%;
+    }
+    
+
+}
